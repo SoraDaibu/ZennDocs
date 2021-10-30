@@ -1,2 +1,2 @@
-# Zenn
-for Zenn Doc
+# ZennDocs
+Repository for Zenn Docs.
