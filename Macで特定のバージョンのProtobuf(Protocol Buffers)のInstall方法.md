@@ -1,0 +1,19 @@
+##コマンド
+以下のコマンドをベースに好きなバージョンに書き換えれば、Installできます。
+
+```bash
+
+PROTOC_ZIP=protoc-3.12.0-osx-x86_64.zip
+curl -OL https://github.com/protocolbuffers/protobuf/releases/download/v3.12.0/$PROTOC_ZIP
+sudo unzip -o $PROTOC_ZIP -d /usr/local bin/protoc
+sudo unzip -o $PROTOC_ZIP -d /usr/local ‘include/*’
+rm -f $PROTOC_ZIP
+```
+
+
+自分が今お世話になってるプロジェクトで、protobufのバージョンの指定があったんだが、色々試しても最新のVersion以外でInstall出来なかったので、ここに記してます。
+※ここに来るまで、1時間強かかった。。。
+
+##参考Web
+http://google.github.io/proto-lens/installing-protoc.html
+
