@@ -5,9 +5,7 @@ type: "tech" # tech: 技術記事 / idea: アイデア記事
 topics: ["Mac", "gRPC", "Protocol Buffers", "go" "golang"] # タグ。["markdown", "rust", "aws"]のように指定する
 published: true # 公開設定（falseにすると下書き）
 ---
-
-
-## コマンド
+# コマンド
 
 以下のコマンドをベースに好きなバージョンに書き換えれば、Installできます。
 
